@@ -1,4 +1,4 @@
-xclass Horse
+class Horse
   attr_accessor :name
   attr_accessor :location
   attr_accessor :speed

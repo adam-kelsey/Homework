@@ -1,0 +1,75 @@
+/* Font-style, changes to look of the font.*/
+p.normal {font-style:normal }
+p.italic {font-style:italic }
+p.oblique {font-style: oblique }
+
+/* object-position determines the alignment of the object 
+inside its box */
+img {
+  width: 150px;
+  height: 100px;
+  border: 1px solid #000;
+  background-color: yellow;
+  margin-right: 1em;
+}
+
+#object-position-1 {
+  object-position: 10px;
+}
+
+#object-position-2 {
+  object-position: 20% 10%;
+}
+
+/* text-decoration allows for manipulation of the text,
+I.E. underline, overline, bold, line-through etc. */
+h1.under {
+  text-decoration: underline;
+}
+
+h1.over {
+  text-decoration: overline;
+}
+
+p.line {
+  text-decoration: line-through;
+}
+
+a.none {
+  text-decoration: none;
+}
+
+/*first-child lets you manipulate the first element of the list*/
+li{
+  color:red;
+}
+
+li:first-child{
+  color:green;
+}
+List 1
+List 2
+List 3 /* In this instance, list 1 would be green, 2 and 3 would
+be red
+
+/* font-variant-caps manipulates the type of capital letter the
+font will have */
+font-variant-caps: normal
+font-variant-caps: small-caps
+font-variant-caps: all-small-caps
+font-variant-caps: unicase
+font-variant-caps: titling-caps
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,44 @@
+body {
+  background-color: skyblue;
+}
+
+h1 {
+  color: crimson;
+}
+
+h1 {
+  background-color: pink;
+}
+
+.shoppe-image {
+  height: 50%;
+  width: 50%;
+}
+
+.white-bread {
+  height: 20%;
+  width: 20%;
+}
+
+.wheat-bread {
+  height: 20%;
+  width: 20%;
+}
+
+.herbs-and-cheese {
+  height: 20%;
+  width: 20%;
+}
+
+.italian-bread {
+  height: 20%;
+  width: 20%;
+}
+
+a {
+  background-color: rgb(255, 255, 255);
+}
+
+a {
+  color: crimson;
+}

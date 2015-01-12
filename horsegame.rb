@@ -7,6 +7,7 @@ class Horse
     self.location = 0
     self.speed = 1
   end
+  
   def move_spaces *horse
     if location < 150
       self.location += (rand(8..13) * self.speed)
@@ -57,7 +58,7 @@ end
 horses = []
 winning_horses = []
 winning_locations = []
-horse_names = ['ixion','santa','edens','man o war','frank','marky','snark','funky','dunky','secretariat','bumpy','clyde']
+horse_names = ['ixion','santa','edens','man o war','muffinsHD','marky','snark','ares','dunky','Chronos','bahamut','clyde']
 track = Track.new
 system("clear")
 puts "How many horses are competing?(2-8)"
@@ -85,7 +86,7 @@ while horses[0].location < 150 &&
   horses.each do |i|
     i.move_spaces
   end
-  sleep(1)
+  sleep(0.85)
 end
 horses.each do |i|
   if i.location == 150 || i.location > 150

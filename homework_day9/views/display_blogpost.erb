@@ -1,0 +1,16 @@
+<h1>Edit Post</h1>
+
+<li><%= @editcontent.author %></li>
+<br>
+<li><%= @editcontent.title %></li>
+<li><%= @editcontent.content %></li>
+<li><%= @editcontent.created %></li>
+<li><%= @editcontent.edited %></li>
+
+<a href="/viewcontent/edit/<%= @editcontent.id %>">Edit</a>
+<form action="/delete_post/<%= @editcontent.id %>" method="post">
+
+  <input type="hidden" name="_method" value="delete">
+  <input type="submit" value="Delete">
+
+</form>

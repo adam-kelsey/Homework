@@ -1,0 +1,10 @@
+<h1>Adam's Super Sweet Blog</h1>
+  <% @blog_posts.each do |blog| %>
+  <ul>
+      <li><a href="/viewcontent/<%= blog.id %>"><%= blog.title %></a></li>
+      <li><%= blog.author %></li>
+      <li><%= blog.content %></li>
+      <li>Created on <%= blog.created %></li>
+      <li>Edited on <%= blog.edited %></li>
+  </ul>
+<% end %>

@@ -1,0 +1,11 @@
+<div class="burn">Let's Burn Some Stuff!</div>
+<% @fire_pic.each do |fire| %>
+  <strong><%= fire[:atomic_name] %></strong>
+  <br>
+  <img class="pic" src=<%= fire[:img_url] %>>
+  <br>
+<% end %>
+<br>
+<br>
+<br>
+<a href="/">Back</a>

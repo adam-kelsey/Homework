@@ -1,0 +1,23 @@
+<!-- # <%= @chemicals %>
+# <h1>Basic Element Information</h1>
+#  <ul>
+#    <li>
+#      <a href="/chemicals">Chemical Index!</a>
+#    </li>
+#  </ul> -->
+
+<% @chemicals.each do |chemical| %>
+  <strong><%= chemical[:atomic_number] %></strong>
+  <br>
+  <strong><%= chemical[:symbol] %></strong>
+  <br>
+  <strong><%= chemical[:element_name] %></strong>
+  <br>
+  <strong><%= chemical[:atomic_mass] %></strong>
+  <br>
+  <br>
+<% end %>
+<br>
+<br>
+<br>
+<a href="/">Back</a>
